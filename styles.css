@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+.heading{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Cardo";
+    font-size: 5rem;
+    padding: 2px;
+    margin: 2px;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    border: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 30rem;
+    position: relative;
+    top: 15rem;
+    left: 24rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.background{
+    background-image: url(images/cina.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    min-height: 95vh;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subheading{
+    position: relative;
+    bottom: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cardo";
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Contributors{
+    font-family: "Cardo";
+    color: rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+    bottom: 10px;
+    border: solid, 10px;
+    background-color: #cccccc52;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+h1 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
